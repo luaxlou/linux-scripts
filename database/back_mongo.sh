@@ -18,7 +18,6 @@ ts=`date +%Y%m%d-%H%M%S`
 
 filename="${DB_NAME}-${ts}.tar.gz"
 
-rm -rf $tempdir/*
 $CMD -u $DB_USER -p $DB_PASS -o $tempdir -d $DB_NAME -h $HOST
 cd $tempdir/$DB_NAME
 tar -zcvf $BACK_DIR/$filename *
