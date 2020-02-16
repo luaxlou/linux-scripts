@@ -1,2 +1,2 @@
 # linux-scripts
-linux useful scripts
+linux useful scripts and docs
