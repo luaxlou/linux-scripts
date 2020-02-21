@@ -10,13 +10,13 @@
 
 CMD=/usr/bin/mongodump
 BACK_DIR=/data/backup/mongo
-HOST=172.16.245.119:27018
+HOST=
 
-DB_NAME=exmall
-DB_USER=exmall
-DB_PASS=hCXrrzLKdsfdsfhG4CNh
+DB_NAME=
+DB_USER=
+DB_PASS=
 
-EXCLUDE=loggings
+EXCLUDE=
 
 ts=`date +%Y%m%d-%H%M%S`
 
