@@ -2,4 +2,4 @@
 
 https://get.docker.com/
 
-看注释
+安装命令看注释

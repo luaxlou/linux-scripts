@@ -1,22 +1,22 @@
 
 ## gitlab-ctl
 ### 日志查看
-```
+```shell
 gitlab-ctl tail
-``` 
+```
 
 
 ### 重新生成配置
 ```
 gitlab-ctl reconfigure
-``` 
+```
 
 
 ### 查看服务状态
 ```
 gitlab-ctl status
-``` 
- 
+```
+
 
 
 ## gitlab-rails
