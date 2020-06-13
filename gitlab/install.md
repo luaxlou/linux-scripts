@@ -10,3 +10,8 @@ https://about.gitlab.com/install/#centos-7?version=ce
 
 
 https://mirror.tuna.tsinghua.edu.cn/help/gitlab-ce/
+
+
+
+
+

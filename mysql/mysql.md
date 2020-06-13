@@ -9,3 +9,4 @@ flush privileges;
 ## 查询锁
 
 select * from information_schema.innodb_trx;
+

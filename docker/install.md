@@ -1,5 +1,5 @@
 ## 安装docker
 
-https://get.docker.com/
+curl -fsSL https://get.docker.com |/bin/sh
 
 安装命令看注释

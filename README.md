@@ -11,3 +11,4 @@ linux常用指令：
 - ssh-keygen -t rsa 生成id_rsa
 - lsof -i:80 查看端口号进程
 - curl ipinfo.io 查看本机公网ip
+
