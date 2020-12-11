@@ -12,3 +12,7 @@ linux常用指令：
 - lsof -i:80 查看端口号进程
 - curl ipinfo.io 查看本机公网ip
 
+机器性能判断：
+
+- 当前TCP连接查看： netstat -n | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}' 
+
