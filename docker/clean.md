@@ -2,7 +2,7 @@
 
 
 
-### 清理dangling 镜像
+### 清理镜像
 
 `docker image prune`
 
