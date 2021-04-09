@@ -10,3 +10,18 @@ flush privileges;
 
 select * from information_schema.innodb_trx;
 
+
+## 统计所有数据库存储
+
+```
+use information_schema;  
+SELECT   
+    TABLE_SCHEMA,
+    sum(DATA_LENGTH/1024/1024/1024) as DataG ,  
+    sum((INDEX_LENGTH/1024/1024/1024)) as IndexG,   
+    sum(((DATA_LENGTH+INDEX_LENGTH)/1024/1024/1024)) as AllG,  
+    sum(TABLE_ROWS )
+FROM TABLES 
+group by TABLE_SCHEMA   
+order by AllG desc;
+```
