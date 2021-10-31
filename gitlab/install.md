@@ -23,3 +23,5 @@ sudo EXTERNAL_URL="https://gitlab.example.com" dnf install -y gitlab-ce
 cat /etc/gitlab/initial_root_password
 
 gitlab-ctl status
+
+more: https://about.gitlab.com/install/#centos-8?version=ce
