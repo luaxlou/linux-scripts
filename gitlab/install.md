@@ -1,4 +1,4 @@
-安装gitlab ce 版本
+## 安装gitlab ce 版本
 
 
 ### CentOS7
