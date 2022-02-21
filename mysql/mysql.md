@@ -14,6 +14,7 @@ mysql8
 ```
 CREATE USER 'username'@'%' IDENTIFIED WITH mysql_native_password BY 'pass';
 grant all privileges on dbname.* to username@'%' ;
+flush privileges;
 ```
 
 ## 查询锁
